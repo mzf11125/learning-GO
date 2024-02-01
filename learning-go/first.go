@@ -27,7 +27,11 @@ import "fmt"
 //String to byte array
 //RuneCOuntintString function
 //Rune is a character in GoLang
-//Int
+//Default value of string is empty string, integer is 0, float is 0.0, bool is false
+//Cannot declare constant using := , use = instead
+//Constants are declared using const keyword
+// const Pi float64 = 3.14 //Constant declaration with const keyword and type after name
+// const Pi2 = 3.14 //Constant declaration with const keyword and type after name
 
 
 func main() {
@@ -40,5 +44,10 @@ func main() {
 	fmt.Println(intNum)
 	fmt.Println(intNum2)
 	fmt.Println(intNum3)
+	printMe()
+}
+
+func printMe(){
+	fmt.Println("Hello World")
 }
 
